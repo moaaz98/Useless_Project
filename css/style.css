@@ -1,0 +1,69 @@
+*{box-sizing: border-box}
+.clearfix{clear:both}
+.container{width:1170px; margin:auto}
+body{background: #101214}
+
+/* Header ******************************/
+
+.header{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../template/banner.jpg); 
+    background-size: cover;
+    width:100%;
+    min-height: 400px;
+    padding-top:50px;
+}
+
+.navbar{
+    
+
+}
+
+.megacrop{
+    text-decoration: none;
+    color:white;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.logo{display: inline-block;}
+
+/* List */
+.list{
+    list-style: none;
+    float:right;
+    padding:0;
+    margin:0;
+    
+}
+
+.list li{float: left}
+
+.list li a{
+    text-decoration: none;
+    color:white;
+    padding:16px;
+}
+
+.list li a:hover{color:#41bdff; transition: 0.5s;}
+
+.list li a.active{background:#2b8fc4; color:white; }
+
+/* Frame Work **********************************/
+.myButton{
+    background: #2b8fc4;
+    border:none;
+    padding:0;
+    border-radius: 6px;
+}
+
+.myButton a{
+    text-decoration: none;
+    color:white;
+    display: inline-block; 
+}
+
+.myButton a:hover{background: #326580; border-radius: 6px; transition: 0.5s;}
+
+h2, h3{color:#cacaca; margin:0;}
+p{color:#686868}

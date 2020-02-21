@@ -1,0 +1,164 @@
+
+/* Description **************************************/
+.desc{
+    text-align: center;
+    padding:100px 0;
+}
+
+.desc h2{color:white;}
+
+.desc p{color:#d7d6c9; padding: 0 230px; line-height: 1.7;} 
+
+.desc button{
+    margin-top:25px;
+    border-radius: 6px;
+}
+
+.desc button a{padding: 16px 40px;}
+
+/* Features *************************************/
+.features{
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.feat{
+    width:33%;
+    float:left;
+    text-align: center;
+    padding-left: 50px;
+}
+.feat p{margin-bottom:0}
+
+.feat span{
+    color:white;
+    font-size:2.7em;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.feat button{margin-top:30px}
+.feat button a{padding:15px 30px}
+/* Page *****************************************/
+.page{
+    background: #101214;
+    padding-top: 60px;
+    padding-bottom:40px;
+    overflow: hidden;
+}
+
+.page .col1{
+    width:70%;
+    float:left;
+    padding-left: 50px;
+}
+
+/* Article */
+.article img{
+    width:100%;
+    height:313px;
+    margin-top:3em;
+}
+
+
+.article a{ color:#cacaca} .article a:hover{text-decoration: none}
+.article button{margin-top:30px}
+.article button a{padding: 16px 30px}
+
+/* Row */
+.row{
+    min-height:500px;
+    margin-top:50px;
+    padding-top:50px;
+}
+
+.row .c1, .row .c2{
+    width:50%;
+    float:left;
+}
+
+/* c1 */
+/* s1 */
+.row .c1 .s1{padding-top:30px}
+
+.row .c1 .s1 span a{
+    background: #2b8fc4;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.row .c1 .s1 span a:hover{text-decoration: underline}
+
+.row .c1 h3{display:inline; padding-left:8px;}
+
+ p a{color:#686868; text-decoration: none;} 
+ p a:hover{text-decoration: underline}
+.col1 hr{height:1px;border:none;color:#333; background-color:#333;} 
+
+/* c2 */
+
+.c2{padding-left: 50px}
+
+.row .c2 h3{display:inline;}
+
+.row .c2 p a{color:#686868; text-decoration: none;} 
+.row .c2 p a:hover{text-decoration: underline}
+
+/* Col 2 **************************************************/
+.page .col2{
+    width:30%;
+    float:left;
+}
+/* Nulla */
+.page .col2 .nulla{
+    overflow: hidden;
+
+}
+.col2 .nulla .nulaE{
+    width: 50%;
+    float:left;
+    padding-left: 50px;
+}
+
+.nulaE h2{margin-bottom:30px; font-size:21px}
+
+.nulaE ul{padding-left:20px}
+
+.nulaE li{color:#686868}
+
+.nulaE li a{
+    font-size: 15px;
+    color:#686868; 
+    text-decoration: none;
+}
+
+.nulaE li a:hover{text-decoration: underline}
+.nulaE hr{height:1px;border:none;color:#333; background-color:#333;} 
+
+/* Pics */
+.pics{padding-left: 50px; margin-top:50px}
+
+.pics h2{margin-bottom: 25px}
+
+.pic-info p{margin:0}
+
+.pics .pic-info{padding-top:20px; margin-top:15px; margin-bottom: 40px;}
+
+.pics .pic-info img {float:left; margin-right: 10px }
+
+.pics hr{height:1px;border:none;color:#333; background-color:#333;}
+
+.pics button a{padding: 15px 30px}
+
+/* Footer ***************************************************/
+.footer{
+    text-align:center;
+    padding: 40px 0 80px 0;
+}
+
+.footer p{}
+.footer hr{height:1px;border:none; background-color:#333; margin-bottom: 40px;}
+
+

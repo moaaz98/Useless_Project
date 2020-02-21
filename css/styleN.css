@@ -1,0 +1,128 @@
+*{box-sizing: border-box}
+.clearfix{clear:both}
+.container{width:1170px; margin:auto}
+body{background: #101214}
+
+
+
+/* Header ******************************/
+
+.header{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../template/banner.jpg); 
+    background-size: cover;
+    width:100%;
+    padding-top:35px;
+    padding-bottom:30px;
+}
+
+.navbar{
+    
+
+}
+
+.megacrop{
+    text-decoration: none;
+    color:white;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.logo{display: inline-block;}
+
+/* List */
+.list{
+    list-style: none;
+    float:right;
+    padding:0;
+    margin:0;
+    
+}
+
+.list li{float: left}
+
+.list li a{
+    text-decoration: none;
+    color:white;
+    padding:16px;
+}
+
+.list li a:hover{color:#41bdff; transition: 0.5s;}
+
+.list li a.active{background:#2b8fc4; color:white;}
+
+/* page ***********************************************/
+
+.page{
+    background: #101214;
+    padding-top: 60px;
+    padding-bottom:40px;
+    overflow: hidden;
+}
+
+
+.page .col1 h2{font-size:40px}
+
+.page .col1 img{width:100%; margin-top:30px}
+
+.page .col1 p{line-height: 1.6}
+
+/* list */
+.list2{}
+.list2 li{color:#909090}
+.list2 li a{ color:#909090}
+.list2 li a:hover{text-decoration: none}
+
+.float-left{float:left}
+.float-right{float:right}
+.myButton{
+    background: #2b8fc4;
+    border:none;
+    padding:0;
+    border-radius: 6px;
+}
+
+.myButton a{
+    text-decoration: none;
+    color:white;
+    display: inline-block; 
+}
+
+.myButton a:hover{background: #326580; border-radius: 6px; transition: 0.5s;}
+
+h2, h3{color:#cacaca; margin:0;}
+p{color:#686868}
+
+.footer{
+    text-align:center;
+    padding: 40px 0 80px 0;
+}
+
+.footer p{}
+.footer hr{height:1px;border:none; background-color:#333; margin-bottom: 40px;}
+
+/* Frame **************************************/
+.float-left{float:left}
+.float-right{float:right}
+.myButton{
+    background: #2b8fc4;
+    border:none;
+    padding:0;
+    border-radius: 6px;
+}
+
+.myButton a{
+    text-decoration: none;
+    color:white;
+    display: inline-block; 
+}
+
+.myButton a:hover{background: #326580; border-radius: 6px; transition: 0.5s;}
+
+h2, h3{color:#cacaca; margin:0;}
+p{color:#686868}
+
+
+
+
+
